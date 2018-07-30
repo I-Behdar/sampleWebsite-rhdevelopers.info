@@ -1,0 +1,259 @@
+
+/*-----from 1024 to 1200 pixels-------*/
+@media only screen and (max-width: 1200px) {
+    
+    .main-nav { margin-right: 80px; }
+    
+    .Royal-text { left: 360px; }
+    
+    .contact-box {
+        width: 40%;
+        position: absolute;
+        top: 880px;
+        left: 350px;
+    }
+    .calc-box {
+        margin: 70px 0 0 300px;
+        width: 45%;
+    }
+}
+/*-----from 768 to 1024 pixels-------*/
+@media only screen and (max-width: 1024px) {
+    
+    .Royal-text { left: 280px; }
+    
+    .contact-box {
+        width: 40%;
+        position: absolute;
+        top: 880px;
+        left: 290px;
+    }
+    .photo-showcase { margin-left: 160px; }
+    
+    .plan-heading .plan1 { padding-left: 120px; }
+
+    .plan-heading .plan2 { padding-left: 100px; }
+    
+    .plan-heading .plan3 { padding-left: 110px; }
+    
+    .plan-price { margin: 30px 0 20px 100px; }
+
+    .plan-notice { margin: 50px 0 50px 60px; }
+    
+    #safe { margin-left: 10px; }
+    #special { margin-left: 10px; }
+    #crisis { margin-left: 5px; }
+
+    .back ul li { font-size: 14px; }
+}
+/*-----from 480 to 768 pixels-------*/
+@media only screen and (max-width: 768px) {
+    
+    .Royal-text { left: 150px; }
+    
+    .plan-heading .plan1 { padding-left: 80px; }
+
+    .plan-heading .plan2 { padding-left: 60px; }
+    
+    .plan-heading .plan3 { padding-left: 70px; }
+    
+    .plan-price { margin: 30px 0 20px 45px; }
+
+    .plan-notice { 
+        margin: 50px 0 50px 35px; 
+        font-size: 42px;
+    }
+    
+    #safe { 
+        margin-left: 0px; 
+        font-size: 14px;
+    }
+    #special {    
+        margin-left: 0px; 
+        font-size: 14px;
+    }
+    #crisis {    
+        margin-left: -5px; 
+        font-size: 14px;
+    }
+
+    .back ul li {  margin: 20px 10px 0 10px; }
+    
+    .contact-box {
+        width: 40%;
+        position: absolute;
+        top: 880px;
+        left: 230px;
+    }
+    
+    #submit { width: 20%; }
+    
+    .photo-showcase { margin-left: 140px; }
+
+    .main-nav li{  margin-left: 10px; }
+    
+    nav .logo { left: 70px; }
+    
+    #p1 { left: 150px; }
+    
+    #p2 { left: 155px; }
+    
+    .footer-nav li { padding-right: 15px; }
+    
+      .calc-box {
+        margin: 70px 0 0 140px;
+        width: 65%;
+    } 
+}
+
+/*-----from 0 to 480 pixels-------*/
+@media only screen and (max-width: 480px) {
+    
+      .Royal-text { 
+        left: 20px; 
+        font-size: 18px;
+      }
+    
+    .welcome-section p {
+        padding: 0 60px;  
+    }
+    
+    .service-section p {
+        margin-bottom: 20px;
+    }
+    
+    .plan-section {
+        margin-top: -20px;
+    }
+    
+    .plan-heading .plan1 { padding-left: 180px; }
+
+    .plan-heading .plan2 { padding-left: 160px; }
+    
+    .plan-heading .plan3 { padding-left: 170px; }
+    
+    .plan-price { margin: 30px 0 20px 150px; }
+    
+    .plan-notice { 
+        margin: 50px 0 50px 130px; 
+        font-size: 46px;
+    }
+    
+     #safe { 
+        margin-left: 80px; 
+        font-size: 18px;
+    }
+    #special {    
+        margin-left: 80px; 
+        font-size: 18px;
+    }
+    #crisis {    
+        margin-left: 70px; 
+        font-size: 18px;
+    }
+
+    .back ul li {  
+        font-size: 16px;
+        margin: 20px 10px 0 10px; 
+    }
+    
+    .contact-box {
+        width: 70%;
+        position: absolute;
+        top: 880px;
+        left: 80px;
+    }
+    
+    .style-section p {
+        padding: 0 60px;
+    }
+    
+    .photo-showcase { margin-left: 30px; }
+    
+    .photo-showcase li { width: 40%; }
+    
+    .main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 12px;
+    margin-right: 45px;
+}
+    
+    .main-nav li{  
+        display:grid;
+        font-size: 14px;
+        padding-top: 2px;
+    }
+    
+    nav .logo { left: 50px; }
+    
+    #p1 { left: 130px; }
+    
+    #p2 { left: 135px; }
+    
+    .footer-nav { 
+       margin-left: 100px;
+    }
+    
+    .footer-nav li { 
+        padding-right: 10px; 
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    
+    .social-media li ion-icon {
+        width: 20px;
+        height: 20px;
+    }
+    
+     .social-media {
+        margin-top: 20px;
+         margin-right: 140px;
+    }
+    
+    footer p:first-child { 
+        margin-top: 10px; 
+        font-size: 14px;
+    }
+    footer p:last-child { 
+        font-size: 14px;
+    }
+
+    .sticky #p1 {
+        top: 10px;
+        left: 90px;
+        font-size: 14px;
+    }
+
+    .sticky #p2 {
+        top: 30px;
+        left: 95px;
+        font-size: 14px;
+    }
+    
+    .sticky .logo { left: 30px; } 
+    
+     .sticky .main-nav { margin-top: 15px; }
+    
+    .sticky .main-nav li { 
+        display: inline-block;
+        font-size: 14px;
+        margin-left: 0;
+        padding: 0;
+    }
+    
+    .definition-section p {
+    padding: 0 60px; 
+    }
+    
+    .calc-box {
+        margin: 70px 0 0 25px;
+        width: 90%;
+    } 
+    
+    .calc-box li { padding: 20px 0 10px 0; }
+    
+    .option-box{ margin: 30px 0 0 48px; }
+
+    #submitClear { margin: 0 0 30px 48px; }
+}

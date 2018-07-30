@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initia-scale=1.0">
+        <meta name="description" content="Royal House Developers is a website with imaginary content designed as a sample only for display purposes">
+        
+        <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="Vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="Resources/css/main.css">
+        <link rel="stylesheet" type="text/css" href="Resources/css/queries.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400" rel="stylesheet">
+        
+        <title>Royal House Developers &#124; Feel Royal</title>
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="/Resources/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/Resources/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/Resources/icons/favicon-16x16.png">
+        <link rel="manifest" href="/Resources/icons/site.webmanifest">
+        <link rel="mask-icon" href="/Resources/icons/safari-pinned-tab.svg" color="#170101">
+        <link rel="shortcut icon" href="/Resources/icons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#170101">
+        <meta name="msapplication-config" content="/Resources/icons/browserconfig.xml">
+        <meta name="theme-color" content="#170101">
+    </head>
+    <body>
+       <nav>
+            <p id="p1">Royal House</p>
+            <p id="p2">Developers</p>
+            <img src="Resources/images/Logo.png" alt="RHD LOGO" class="logo">
+             <div class="row">
+                 <ul class="main-nav">
+                      <li><a href="home.html">Home</a></li>
+                      <li><a href="projects.html">Projects</a></li>
+                      <li><a href="contact.html">Contact Us</a></li>
+                      <li><a href="cost-calculator.html">Cost Calc.</a></li>
+                 </ul>
+            </div>
+        </nav>
+        <header class="home-page">
+           <div id="child">
+        
+            <div class="Royal-text">
+                <h1>Feel royal, Feel safe</h1>
+            </div>
+            </div>
+        </header>
+         <section class="definition-section js--sticky-nav">
+            <div class="row">
+                <h2>Calculate the cost</h2>
+                <p>
+                    The ability to manage construction costs effectively is a vital ingredient of success. In order to keep your projects on track, you need to be able to make accurate cost predictions in advance. The closer these estimates are to reality, the better your chances of a successful result will be. This tool helps you create the best current cost estimate for your construction projects. 
+                </p>
+            </div>
+        </section>
+        <section class="calculator-section">
+            <div class="row">
+                <p></p>
+                <div class="col span-1-of-1 calc-box">
+                     <div class="option-box">
+                          <select id="city">
+                              <option id="city-clear">Select a city</option>
+                              <option id="city-m">Maribor</option>
+                              <option id="city-o">Oxenfort</option>
+                              <option id="city-b">Bremont</option>
+                          </select>
+                      </div>
+                   <ul>
+                       <li><span>Painting: </span><input type="text" id="paint" value="0" class="quantClear"> m<sup>2</sup>
+                       <span>Price: </span><input type="text" id="pricePaint" value="0" class="price" readonly>&euro;/m<sup>2</sup>
+                       </li>
+                       <li><span>Floor: </span><input type="text" id="floor" value="0" class="quantClear"> m<sup>2</sup>
+                       <span>Price: </span><input type="text" id="priceFloor" value="0" class="price" readonly>&euro;/m<sup>2</sup>
+                       </li>
+                        <li><span>Windows: </span><input type="text" id="windows" value="0" class="quantClear"> m<sup>2</sup>
+                       <span>Price: </span><input type="text" id="priceWindows" value="0" class="price" readonly>&euro;/m<sup>2</sup>
+                       </li>
+                        <li><span>Tiles: </span><input type="text" id="tiles" value="0" class="quantClear"> m<sup>2</sup>
+                       <span>Price: </span><input type="text" id="priceTiles" value="0" class="price" readonly>&euro;/m<sup>2</sup>
+                       </li>
+                        <li><span>Cabinets: </span><input type="text" id="cabinets" value="0" class="quantClear"> m<sup>2</sup>
+                       <span>Price: </span><input type="text" id="priceCabinets" value="0" class="price" readonly>&euro;/m<sup>2</sup>
+                       </li>
+                       <li class="result">Total Cost = &euro; 0</li> 
+                   </ul>
+                   <input type="submit" value="Clear" id="submitClear">
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                      <li><a href="home.html">Home</a></li>
+                      <li><a href="projects.html">Projects</a></li>
+                      <li><a href="contact.html">Contact Us</a></li>
+                      <li><a href="cost-calculator.html">Cost Calc.</a></li>
+                    </ul>
+                </div>
+                 <div class="col span-1-of-2">
+                    <ul class="social-media">
+                        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>All the materials on this website are imaginary and only for display purposes.</p>
+                <p>Designed by Puyan Behdarvandi</p>
+            </div>
+        </footer>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="Vendors/js/jquery.waypoints.min.js"></script>
+        <script src="Vendors/js/jquery.flip.min.js"></script>
+        <script src="https://unpkg.com/ionicons@4.2.4/dist/ionicons.js"></script>
+        <script src="Resources/js/script.js"></script>
+    </body>
+</html>
